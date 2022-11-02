@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#page {
+  height: 100%;
+  padding: 20px 50px;
+}
+
+.card-body {
+  height: 214px;
+}
+
+.add-profile-card {
+  text-align: center;
+}
+
+.add-profile-btn {
+  margin: 70px auto;
+}
+
+.search-bar {
+  max-width: 520px;
+  margin-right: 10px;
+  height: 50px;
+}
+
+.tool-bar {
+  margin: 20px 0px;
+}
+
+/* .label-bar {
+  margin: auto;
+  text-align: center;
+} */
+
+.btn-labels {
+  display: inline-block;
+  vertical-align: middle;
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 600px;
+}
+
+.btn-add-label {
+  margin-left: 10px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.col-lg-4, .col-md-6 {
+  padding: 10px;
+}
+
+.event-card {
+  margin: 10px;
+  min-height: 500px;
+}
+
+.card {
+  box-shadow: 13px 15px 48px -12px rgba(120, 116, 116, 0.7);
+  -webkit-box-shadow: 13px 15px 48px -12px rgba(120, 116, 116, 0.7);
+  -moz-box-shadow: 13px 15px 48px -12px rgba(120, 116, 116, 0.7);
+  border-width: 0;
+}
+
+.btn-new-profile {
+  min-width: 140px !important;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .btn-labels {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .label-bar {
+    margin: auto;
+    min-width: 300px;
+  }
+} */
